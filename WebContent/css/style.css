@@ -1,0 +1,329 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+body {
+	font-family: Avenir;
+	color: white;
+	padding-top: 50px;
+}
+
+p {
+	font-family: Avenir;
+}
+
+.login-box {
+	color: black;
+}
+
+.label {
+	font-family: Avenir;
+}
+
+h1 {
+	font-family: Avenir;
+	font-size: 54px;
+}
+
+h2 {
+	font-family: Avenir;
+}
+
+h3 {
+	font-family: Avenir;
+}
+
+h4 {
+	font-family: Avenir;
+}
+
+/* Custom buttons. */
+div.feature {
+    position: relative;
+}
+
+div.feature a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none; /* No underlines on the link */
+    z-index: 10; /* Places the link above everything else in the div */
+    background-color: #FFF; /* Fix to make div clickable in IE */
+    opacity: 0; /* Fix to make div clickable in IE */
+    filter: alpha(opacity=1); /* Fix to make div clickable in IE */
+}
+
+/* Some navbar fixes. */
+
+.navbar {
+	border: none;
+}
+
+
+.navbar a:hover {
+	color: black;
+}
+
+.navbar a {
+	color: white;
+}
+
+
+.brand {
+	margin: 20px;
+}
+
+.campus {
+	background-image:
+		url(http://ww1.prweb.com/prfiles/2008/11/06/912644/StanfordCampus.jpg);
+}
+
+.sf {
+	background-image: url(http://bit.ly/1fVSI7U);
+}
+
+.kensington {
+	background-image: url(http://bit.ly/198LMzl);
+}
+
+.nyc {
+	background-image: url(http://bit.ly/19ITYtB);
+}
+
+.boston {
+	background-image: url(http://bit.ly/19JTwLD);
+}
+
+.dark_wood {
+	background-color: #209129;
+	/*background-image: url(../images/wood_1.png)*/
+}
+
+.wood {
+	background-image: url(../images/wood_pattern.png);
+}
+
+.fixed-bar {
+	height: 100px;
+}
+
+.large-quote {
+	padding: 50px 0px 40px 0px;
+}
+
+.large-content {
+	padding: 0px 0px 40px 0px;
+}
+
+.new-account-box {
+	height: 600px;
+}
+
+.large-box {
+	height: 500px;
+}
+
+.marge-box {
+	height: 400px;
+}
+
+.medium-box {
+	height: 250px;
+}
+
+.follower {
+	margin-top: 0px;
+}
+
+.shadow {
+	-webkit-box-shadow: 0px 15px 30px -2px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 15px 30px -2px rgba(0,0,0,0.75);
+	box-shadow: 0px 15px 30px -2px rgba(0,0,0,0.75);
+}
+
+/* Brief padding class. */
+.padding {
+	padding: 10px;
+}
+
+.padding.header {
+	margin-bottom: 0px;
+}
+
+.spacious {
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+/* Input stuff. */
+.styled-input {
+	box-shadow: 0px 0px 0px #888888;
+	border: 2px;
+	padding: 6px 12px;
+}
+
+.margin-bottom {
+	margin-bottom: 20px; 
+}
+
+.btn {
+	color: white;
+}
+
+.btn-success {
+	background-color: #2ECC71;
+	border-color: #2ECC71;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 20px;
+	border-radius: 20px;
+}
+
+.btn-success:hover {
+	background-color: #27AE60;
+	border-color: #27AE60;
+}
+
+/* Color classes. */
+.white {
+	background-color: white;
+	color: black;
+}
+
+.turquoise {
+	background-color: #1ABC9C;
+}
+
+.black {
+	background-color: black;
+}
+
+.emerald {
+	background-color: #2ECC71;
+	color: white;
+}
+
+.alazarin {
+	background-color: #E74C3C;
+}
+
+.paper {
+	background-color: #FFF1D4;
+}
+
+.orange {
+	background-color: #F39C12;
+}
+
+.pomegranate {
+	background-color: #C0392B;
+}
+
+.river {
+	background-color: #3498DB;
+	color: white;
+}
+
+.wisteria {
+	background-color: #8E44AD;
+}
+
+.wet-asphalt {
+	background-color: #34495E;
+}
+
+.yellow {
+	background-color: #F1C40F;
+}
+
+.carrot {
+	background-color: #E67E22;
+}
+
+.clear {
+	background-color: clear;
+}
+
+.clouds {
+	background-color: #ECF0F1;
+	color: black;
+}
+
+/* Specific elements. */
+.goal-body {
+	color: black;
+	background-color: #ECF0F1;
+}
+
+/* Input text highlighting. */
+input[type=text], textarea {
+  border-radius: 0px;
+  border: none;
+}
+ 
+input[type=text]:focus, textarea:focus {
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+input[type=password], textarea {
+  border-radius: 0px;
+  border: none;
+}
+ 
+input[type=password]:focus, textarea:focus {
+  border: 1px solid rgba(81, 203, 238, 1);
+}
+
+/* Progress bar */
+.progress {
+  background-color: transparent;
+  height: 1.5625em;
+  border: 1px solid #cccccc;
+  padding: 0.125em;
+  margin-bottom: 0.625em;
+}
+.progress .meter {
+  background: #2ba6cb;
+  height: 100%;
+  display: block;
+  max-width: 100%
+}
+.progress.secondary .meter {
+  background: #e9e9e9;
+  height: 100%;
+  display: block;
+}
+.progress.success .meter {
+  background: #5da423;
+  height: 100%;
+  display: block;
+}
+.progress.alert .meter {
+  background: #c60f13;
+  height: 100%;
+  display: block;
+}
+.progress.radius {
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+.progress.radius .meter {
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.progress.round {
+  -webkit-border-radius: 1000px;
+  border-radius: 1000px;
+}
+.progress.round .meter {
+  -webkit-border-radius: 999px;
+  border-radius: 999px;
+}
+
